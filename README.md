@@ -45,7 +45,7 @@
 ## 🗓️ Development Timeline
 
 * **Week 1:**
-    * Set up repository and ensure team access.
+    * Set up the repository and ensure team access.
     * Brainstorm game ideas.
     * Research pre-made assets, animations, and items.
 * **Week 2:**
