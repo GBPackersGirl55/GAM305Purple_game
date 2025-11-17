@@ -189,3 +189,116 @@
   * **Preferred Communication:** Calls in class discord; messages/other calls within the group.
   * **Meeting Frequency:** Tuesdays/Sundays - Calls within class discord. (We want to play this by ear and if needed add in more calls/meet in small groups to help one another out).
   * **Task Management:** Gantt chart. We will write in there what we are working on/what we have done. Anyone can help one another create things and will be played by ear if someone needs help/would like to do something specific.
+
+---
+
+# Module Three Team Project Log
+
+## Play Test (Preproduction Stage)
+
+Play testing begins as soon as basic mechanics and prototype assets are functional. This stage focuses on validating the core gameplay loop, verifying mechanics, and identifying whether the game’s direction is fun and feasible.
+
+#### Preproduction Testing Activities
+
+*   Testing the player controller (movement, stamina, health)
+*   Testing prototype enemy AI behavior (Seeker, Zombie, Weeping Angel)
+*   Testing early room layouts and elevator transitions
+*   Testing item functionality such as Finger ammo, health food, flasks, glow sticks
+*   Testing damage systems, collision, and interactions
+
+#### Preproduction Goals
+
+*   Determine whether the core idea is fun
+*   Verify that the game’s mechanics work fundamentally
+*   Catch major logic errors before building full levels
+*   Adjust the design document early to avoid costly changes later
+
+## Demo Testing
+
+*   Running through the complete level
+*   Ensuring enemy behavior is predictable and bug-free
+*   Ensuring pickups function properly
+*   Verifying elevators and room transitions
+*   Testing atmosphere: lighting, sound, pacing
+*   Checking UI elements (HUD, prompts, messages)
+*   Fixing anything that breaks immersion or clarity
+
+#### Demo goals
+
+*   Ensure the demo flows smoothly without crashes or dead ends
+*   Fix any issues that would confuse players in a first impression
+*   Confirm performance is stable
+*   Validate that gameplay reflects the intended horror and PS1 visual style
+
+## Code Release Testing
+
+*   Running through the entire game start-to-finish
+*   Checking all implemented systems against the test plan
+*   Regression testing (ensuring old bugs weren’t reintroduced)
+*   Stress testing AI and spawning systems
+*   Ensuring the final boss (Necromancer) functions properly
+*   Checking level geometry and collision
+*   Testing all pickups, puzzles, keys, and elevators
+
+## Test Checklist
+
+#### Player Systems:
+
+*   Player can move, run, crouch, jump
+*   Stamina drains and regenerates properly
+*   Health, shield, and damage operate correctly
+*   Finger Gun fires and consumes ammo
+*   Thumb Grenade explodes and deals damage
+
+#### Enemy AI
+
+*   Seeker reacts to sound only
+*   Zombies detect player visually and chase
+*   Weeping Angels freeze when looked at
+*   Enemy spawning system functions correctly
+*   Pathfinding works in every room
+
+#### Environment:
+
+*   Elevators move between floors without issue
+*   Room keys open the correct doors
+*   Capillaries (crawlspace secrets) function
+*   Level geometry has no collision issues
+*   Lighting and atmosphere load properly
+
+#### Gameplay Flow
+
+*   Final boss starts, fights, and ends properly
+*   HUD updates correctly (health, ammo, stamina)
+*   All pickups spawn with correct values
+*   Game can be completed start to finish
+
+## Updating Test Plan
+
+The test plan is updated any time the design document changes, including:
+*   Adding a new enemy type
+*   Adjusting item behavior
+*   Rebalancing weapons
+*   Changing room layout
+*   Introducing new mechanics or interactions
+
+**The update process:**
+
+1.  Identify any changes made to gameplay, mechanics, or level structure.
+2.  Update the design document first.
+3.  Adjust the test plan to match the new expected behavior.
+4.  Add new test items or remove obsolete ones.
+5.  Notify testers of updated procedures before the next test session.
+
+## Bug Reporting Process
+
+**Bug report format:**
+
+*   **Title:** (short description)
+*   **Category:**
+*   **Severity:**
+*   **Reproduction steps:**
+*   **Expected result:**
+*   **Actual result:**
+
+*(We have created an excel spreadsheet in order to keep this tidy and keep track of all bugs overtime so we can look back on them if needed)*
