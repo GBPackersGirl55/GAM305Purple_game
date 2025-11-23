@@ -89,8 +89,7 @@
 
   * First person controller
   * Pickups
-  * Finger gun shooting system
-  * Thumb grenade
+  * Magic shooting [edited]
 
 ### Basic enemy AI
 
@@ -120,7 +119,7 @@
   * 1 capillary secret crawlspace
     *(Note: No texture or final lighting yet – shape/navigation only)*
 
-### Final Boss
+### Final Boss [still being debated on ?]
 
   * Necromancer AI
   * Summons enemies
@@ -166,7 +165,7 @@
   * Ammo scarcity
   * Stamina usage pacing
   * Enemy health/speed tuning
-  * Final boss encounter feels tense, not fair
+  * Final boss encounter feels tense, not fair [debated]
 
 ### Environment Pass
 
