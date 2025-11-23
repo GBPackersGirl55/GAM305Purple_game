@@ -302,3 +302,48 @@ The test plan is updated any time the design document changes, including:
 *   **Actual result:**
 
 *(We have created an excel spreadsheet in order to keep this tidy and keep track of all bugs overtime so we can look back on them if needed)*
+
+
+---
+
+# Module Four Team Project Log
+
+## What part of the testing process did the team perceive to go well? 
+
+*  Early QA helped us catch major animation issues with the original finger-gun mechanic. 
+*  Playtesting each mechanic in small pieces allowed us to find issues before they affected larger systems. 
+*  Identifying the animation failure early allowed us to pivot smoothly to a full-body mesh that shoots from the hand. 
+*  QA helped ensure gameplay functions were tested as soon as they were implemented.
+
+## What bugs were identified and corrected?  
+
+*  Bugs were discovered through repeated playtests focused on individual mechanics (shooting, movement, pickups, etc.). 
+*  Animation issues were found by reviewing state machines and rig behavior.
+*  Logic errors were corrected by inspecting Blueprint nodes and checking events, collisions, and transitions.
+*  The grenade mechanic bug led to a creative redesign, switching from an animated throw to picking up finger “grenades” from the ground.
+
+## In terms of the QA testing process, what would you do differently to improve the process?
+
+*  Create more structured test cases early in development instead of relying mainly on reactive testing.
+*  Add checklists for animation blending, input handling, projectile behavior, and mesh replacements.
+*  Schedule regular testing intervals to ensure consistency instead of testing only after new features are added.
+*  Maintain clearer documentation of bugs, their causes, and the fixes applied.
+
+## What tools did you find successful in the development of your Alpha project? Why? 
+
+*  Unreal Engine Blueprint visual scripting — easy debugging, fast iteration, and clear logic flow.
+*  Animation preview tools and the animation state machine — helped diagnose why finger-gun animations failed.
+*  Collision and event debugging tools — helped verify pickups, shooting triggers, and environmental interactions.
+
+## Were there any tools or techniques that you did not find helpful in the success of your project development? Why? 
+
+*  Advanced profiling tools were not very useful due to the small scope of the Alpha project.
+*  Large-scale version control systems were unnecessary for a small team with limited content.
+*  Some animation tools were less helpful once we switched from finger-gun animations to a full-body mesh approach.
+
+## What did the team approach to the initial analysis of the game design document contribute to the decision to use these tools and techniques? 
+
+*  The GDD emphasized quirky mechanics (finger-gun, finger grenades), which required tools supporting rapid iteration.
+*  Blueprint and animation debugging tools were chosen because they allowed the team to quickly adjust mechanics without losing design intent.
+*  The GDD gave the team clear expectations for movement, shooting, and pickup mechanics, helping QA recognize deviations early.
+*  Alignment on the core design vision made it easier to adapt when animations failed, allowing for the hand-shooting mesh and new grenade pickup concept. 
