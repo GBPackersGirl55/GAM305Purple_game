@@ -345,4 +345,56 @@ The test plan is updated any time the design document changes, including:
 *  The GDD emphasized quirky mechanics (finger-gun, finger grenades), which required tools supporting rapid iteration.
 *  Blueprint and animation debugging tools were chosen because they allowed the team to quickly adjust mechanics without losing design intent.
 *  The GDD gave the team clear expectations for movement, shooting, and pickup mechanics, helping QA recognize deviations early.
-*  Alignment on the core design vision made it easier to adapt when animations failed, allowing for the hand-shooting mesh and new grenade pickup concept. 
+*  Alignment on the core design vision made it easier to adapt when animations failed, allowing for the hand-shooting mesh and new grenade pickup concept.
+
+
+---
+
+# Module Five Team Project Log
+
+## What parts of the plan did the team perceive to go well in relation to the last stage evaluation? 
+
+* Door systems and keycard logic worked reliably after implementation.
+* Grenade redesign using normal grenade pickups function smoothly without major bugs.
+* Mana regeneration issues were resolved with a workable workaround.
+* Testing revealed stable integration of new mechanics into the existing gameplay loop.
+
+## What parts of the plan did the team perceive to go wrong in relation to the last stage evaluation? 
+
+* Enemies continued to cause damage after death due to lingering collision or script activation.
+* Respawning of enemies remains nonfunctional despite several attempts to reset AI states. 
+* AI behavior trees created complications when trying to disable damage events upon enemy death.
+* Time spent troubleshooting these issues slowed progress on enemy encounter polishing.
+* Pickups (health and mana) worked inconsistently across all tests. Created issues often with adding items to inventory system correctly
+
+## How were the previous evaluations integrated into this latest stage? 
+
+* Earlier feedback on unreliable mechanics led directly to improvements in pickups, doors, and mana regen.
+* The team prioritized fixing systems that previously caused testing problems.
+* Previous QA emphasized the need for incremental testing, influencing the team's workflow this stage.
+* Animation-based issues from earlier stages encouraged using simpler collision/event-driven systems for new features.
+* Integrated a better UI system with clear objectives and story driven
+* Adjustments from earlier evaluations improved stability and reduced recurring errors.
+
+## What would you do differently to improve the collaboration or development process? 
+
+* Schedule more frequent small builds for immediate testing instead of larger combined builds.
+* Maintain a shared bug log so everyone knows ongoing problems and avoids duplication of effort.
+* Increase communication around AI changes to prevent conflicting updates. Often updated over one another causing issues within Git.
+* Conduct quick daily or every-other-day check-ins to keep everyone aware of current progress.
+
+## Were there any tools or techniques that you did not find helpful in the success of your project development? Why? 
+
+* Unreal’s AI Behavior Tree tools were difficult to debug and not helpful for fixing post-death damage issues.
+* Enemy respawn logic tools provide unclear feedback, making troubleshooting slow and confusing.
+* Animation tools were less useful for this stage since the biggest problems were logic-based, not animation-based.
+
+## Identify the completed stage of development of the intended Beta and address the project schedule to meet Final Release development deadline. 
+
+* All core systems (doors, pickups, grenades, combat basics) are implemented.
+* Finalizing enemy respawn logic.
+* Polishing AI interactions and combat encounters.
+* Prioritize AI-related bugs first.
+* Establish daily milestones with focused objectives.
+* Make sure AI issues are resolved, and levels play smoothly.
+* Spend the remaining time on polish, optimization, sound, and final QA. 
