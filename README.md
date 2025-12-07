@@ -398,3 +398,34 @@ The test plan is updated any time the design document changes, including:
 * Establish daily milestones with focused objectives.
 * Make sure AI issues are resolved, and levels play smoothly.
 * Spend the remaining time on polish, optimization, sound, and final QA. 
+
+---
+
+# Module Six Team Project Log 
+
+ 
+## What parts of the plan did the team perceive to go well in relation to the last stage of evaluation? 
+
+* Enemies now do not cause damage once they die
+* Mana regeneration works perfectly, gaining 5 mana every 25 seconds
+* Mana and health pickups now work correctly
+* UI for inventory now works correctly as well, can use or drop items whenever you please
+* Testing revealed stable integration of new mechanics into the existing gameplay loop. 
+
+## What parts of the plan did the team perceive to go wrong in relation to the last stage of evaluation? 
+
+* Enemies were not despawning/respawning
+* UI for “buttons” tab was placed incorrectly
+* No sound throughout the game (only on enemies) 
+
+## How were the previous evaluations integrated into this latest stage? 
+
+* Earlier feedback on unreliable mechanics led directly to improvements in pickups, doors, and mana regen.
+* The team prioritized fixing systems that previously caused testing problems.
+* Previous QA emphasized the need for incremental testing; this influenced us to play the game all the way through and not in small increments
+* Integrated a better UI system with clear objectives and instructions for which buttons do what
+* Adjustments from earlier evaluations improved stability and reduced recurring errors. 
+
+## What would you do differently to improve the collaboration or development process? 
+
+* Daily play through of the game to make sure everything is working correctly and we did not miss anything 
